@@ -50,9 +50,9 @@ We're using a modern tech stack to build this system:
 ### User Management
 
 - **GET `/users`**: List all users (admin only)
-- **GET `/users/:id`**: Get user details
-- **PUT `/users/:id`**: Update user details
-- **DELETE `/users/:id`**: Delete a user (admin only)
+- **GET `/users/{id}`**: Get user details
+- **PUT `/users/{id}`**: Update user details
+- **DELETE `/users/{id}`**: Delete a user (admin only)
 
 ### Profile
 
@@ -65,15 +65,15 @@ Here's what we need to do:
 
 ### Authentication
 
-- [ ] Implement user login functionality
+- [x] Implement user login functionality
 - [ ] Implement user logout functionality
 - [ ] Implement user registration functionality
 
 ### User Management
 
 - [ ] Create functionality to list all users (admin only)
-- [ ] Develop a feature to get details of a specific user
-- [ ] Implement user detail update functionality
+- [ ] Develop a feature to get details of a specific user (admin only)
+- [ ] Implement user detail update functionality (admin only)
 - [ ] Implement user deletion functionality (admin only)
 
 ### Profile
@@ -81,10 +81,14 @@ Here's what we need to do:
 - [ ] Create a feature to get the logged-in user's profile
 - [ ] Implement profile update functionality
 
-### Middleware
+### Blacklisting
+TBD
 
-- [ ] Develop authentication middleware to secure routes
-- [ ] Implement role-based access control middleware to manage permissions
+### Sessions
+TBD
+
+### Frontend via VueJS
+TBD
 
 ## Contributing
 
