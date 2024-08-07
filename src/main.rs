@@ -11,7 +11,7 @@ async fn main() -> std::io::Result<()> {
     println!("Webserver starting at {}", "127.0.0.1:8080".red());
     HttpServer::new(|| {
         App::new()
-            .route("/login", web::get().to(routes::login))
+            .route("/login", web::post().to(routes::login))
             .route("/profile", web::get().to(routes::profile))
     })
     .bind(("127.0.0.1", 8080))?
