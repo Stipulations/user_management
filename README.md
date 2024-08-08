@@ -50,8 +50,8 @@ We're using a modern tech stack to build this system:
 ### User Management
 
 - **GET `/users`**: List all users (admin only)
-- **GET `/users/{id}`**: Get user details
-- **PUT `/users/{id}`**: Update user details
+- **GET `/users/{id}`**: Get user details (admin only)
+- **PUT `/users/{id}`**: Update user details (admin only)
 - **DELETE `/users/{id}`**: Delete a user (admin only)
 
 ### Profile
