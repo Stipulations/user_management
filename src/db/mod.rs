@@ -4,8 +4,6 @@ pub mod users_init;
 
 use colored::Colorize;
 
-
-
 pub async fn init() {
     if let Err(e) = users_init::create_users_table().await {
         eprintln!("Error creating users table: {}", e.red());

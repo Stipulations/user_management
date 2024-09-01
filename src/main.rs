@@ -2,8 +2,8 @@ use actix_web::{web, App, HttpServer};
 use colored::Colorize;
 
 mod db;
-mod routes;
 mod middleware;
+mod routes;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {

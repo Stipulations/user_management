@@ -59,6 +59,9 @@ We're using a modern tech stack to build this system:
 - **GET `/profile`**: Get logged-in user's profile
 - **PUT `/profile`**: Update logged-in user's profile
 
+### Posts
+- **POST `/posts`**: Create posts/threads
+
 ## TODO
 
 Here's what we need to do:
@@ -78,7 +81,7 @@ Here's what we need to do:
 
 ### Profile
 
-- [ ] Create a feature to get the logged-in user's profile
+- [x] Create a feature to get the logged-in user's profile
 - [ ] Implement profile update functionality
 
 ### Blacklisting
@@ -88,7 +91,7 @@ TBD
 TBD
 
 ### Frontend via VueJS
-TBD
+https://github.com/Stipulations/user_management_frontend
 
 ## Contributing
 

@@ -5,12 +5,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-actix-web = "4.8.0"
+actix-web = "4.9.0"
 jsonwebtoken = "9.3.0"
-rusqlite = { version = "0.32.0", features = ["bundled"] }
+rusqlite = { version = "0.32.1", features = ["bundled"] }
 serde = {version = "1.0", features = ["derive"] }
 serde_json = "1"
 colored = "2.1.0"
 rand = "0.8.5"
-tokio = "1.39.2"
+tokio = "1.40.0"
 chrono = "0.4.38"
+dotenv = "0.15.0"
