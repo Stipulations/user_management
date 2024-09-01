@@ -74,14 +74,14 @@ Here's what we need to do:
 
 ### User Management
 
-- [ ] Create functionality to list all users (admin only)
-- [ ] Develop a feature to get details of a specific user (admin only)
+- [ ] Implement functionality to list all users (admin only)
+- [ ] Implement functionality to get details of a specific user (admin only)
 - [ ] Implement user detail update functionality (admin only)
 - [ ] Implement user deletion functionality (admin only)
 
 ### Profile
 
-- [x] Create a feature to get the logged-in user's profile
+- [x] Implement functionality to get the logged-in user's profile
 - [ ] Implement profile update functionality
 
 ### Blacklisting
